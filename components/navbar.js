@@ -6,8 +6,8 @@ const Navbar = () => (
         <nav>
             <ul>
                 <li><Link href="/"><a className="active">About Me</a></Link></li>
-                <li><Link href="/projects"><a>Projects</a></Link></li>
                 <li><Link href="/skills"><a>Skills</a></Link></li>
+                <li><Link href="/projects"><a>Projects</a></Link></li>
             </ul>
         </nav>
         <StickyTitle/>
@@ -17,11 +17,12 @@ const Navbar = () => (
                     position: fixed;
                     z-index: 99;
                     width: 100%;
-                    padding: 0 0.5%;
+                    border-radius: 5px 0 0 0;
                 }
 
                 nav { 
                     background-color: #cce6ff;
+                    background-color: #5b5d5c;
                     position: sticky;
                     top: 0;
                     z-index: 10;
@@ -38,6 +39,7 @@ const Navbar = () => (
                     float: right;
                     border-radius: 7px 7px 0px 0px;
                     margin-left: 2px;
+                    width: 105px;
                 }
 
                 nav ul li a {
