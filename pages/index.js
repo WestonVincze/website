@@ -4,8 +4,6 @@ const Index = () => (
     <Layout>
         <section className="content">
 			<div className="row paper-row">
-				<img className="paperclip paperclip-right" src="/assets/images/usedClipRight.png"></img>
-				<div className="offset-md-4 col-md-8">
 					<div className="paper">
                         <h1 className="written text-center">hello there.</h1>
 						<p>
@@ -70,15 +68,7 @@ const Index = () => (
 
             <style jsx>{`
 
-            .paperclip {
-                position: absolute;
-            }
 
-            .paperclip-right {
-                right: 10px;
-                top: 30px;
-                z-index: 30;
-            }
 
             .paper-row { 
                 position: relative;
