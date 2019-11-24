@@ -28,7 +28,7 @@ const stickyTitle = () => (
                 font-family: 'Great Vibes', cursive;
                 font-family: 'Zeyada', cursive;
                 font-size: 5.8em;
-                padding-top: 10px;
+                line-height: 1.5em;
                 margin: 0;
             }
 
