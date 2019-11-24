@@ -6,35 +6,44 @@ const Footer = () => (
             </div>
         </div>
 
-        <div class="row">
-            <div class="offset-lg-2 col-lg-8 col-12">
+        <div className="row">
+            <div className="offset-lg-2 col-lg-8 col-12">
                 <div className="row align-items-center">
-                    <div className="text-lg-center text-right col-lg-4 col-6 order-lg-1 order-1">
+                    <div className="text-lg-center text-right col-lg-3 col-6 order-lg-1 order-1">
                         <a href="tel:226-218-2481" className="fa-stack fa-2x">
                             <i className="fa fa-circle fa-stack-2x icon-background"></i>
                             <i className="fa fa-phone fa-stack-1x"></i>
                         </a>
                     </div>
-                    <div className="text-lg-center text-right col-lg-4 col-6 order-lg-2 order-3">
+                    <div className="text-lg-center text-right col-lg-3 col-6 order-lg-2 order-3">
                         <a href="mailto:westonvincze@gmail.com" className="fa-stack fa-2x">
                             <i className="fa fa-circle fa-stack-2x icon-background"></i>
                             <i className="fa fa-envelope fa-stack-1x"></i>
                         </a>
                     </div>
-                    <div className="text-lg-center text-right col-lg-4 col-6 order-lg-3 order-5">
+                    <div className="text-lg-center text-right col-lg-3 col-6 order-lg-3 order-5">
                         <a href="https://www.linkedin.com/in/weston-vincze/" target="_blank" className="fa-stack fa-2x">
                             <i className="fa fa-circle fa-stack-2x icon-background"></i>
                             <i className="fa fa-linkedin fa-stack-1x"></i>
                         </a>
                     </div>
-                    <div className="text-lg-center text-left col-lg-4 col-6 order-lg-4 order-2">
+                    <div className="text-lg-center text-right col-lg-3 col-6 order-lg-4 order-7">
+                        <a href="https://github.com/WestonVincze/" target="_blank" className="fa-stack fa-2x">
+                            <i className="fa fa-circle fa-stack-2x icon-background"></i>
+                            <i className="fa fa-github fa-stack-1x"></i>
+                        </a>
+                    </div>
+                    <div className="text-lg-center text-left col-lg-3 col-6 order-lg-5 order-2">
                         <a href="tel:226-218-2481" className="text-link">call me.</a>
                     </div>
-                    <div className="text-lg-center text-left col-lg-4 col-6 order-lg-5 order-4">
+                    <div className="text-lg-center text-left col-lg-3 col-6 order-lg-6 order-4">
                         <a href="mailto:westonvincze@gmail.com" className="text-link">email me.</a>
                     </div>
-                    <div className="text-lg-center text-left col-lg-4 col-6 order-lg-6 order-6">
+                    <div className="text-lg-center text-left col-lg-3 col-6 order-lg-7 order-6">
                         <a href="https://www.linkedin.com/in/weston-vincze/" className="text-link" target="_blank">linkedIn.</a>
+                    </div>
+                    <div className="text-lg-center text-left col-lg-3 col-6 order-lg-8 order-8">
+                        <a href="https://github.com/WestonVincze/" className="text-link" target="_blank">gitHub.</a>
                     </div>
                 </div>
             </div>
@@ -58,7 +67,7 @@ const Footer = () => (
             }
             .fa-stack:hover .fa-circle{
                 transition: color 0.5s ease;
-                color: #fff;
+                color: transparent;
             }
             .text-link {
                 transition: color 0.5s ease;
