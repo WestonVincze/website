@@ -25,7 +25,7 @@ const Layout = (props) => (
 
             body {
                 background-color: #cce6ff;
-                background-color: #5b5d5c;
+                background-color: #fd8469;
                 font-family: 'Roboto Slab', serif;
                 font-family: 'typewriter', sans-serif;
             }
@@ -36,9 +36,25 @@ const Layout = (props) => (
                 border-radius: 0 0 5px 5px;
                 margin-bottom: 4px;
             }
+
+            .content {
+                padding: 0 15px;
+            }
             
             .row {
                 margin: 0;
+            }
+
+            .paper { 
+                background: url("/assets/images/linedpaper.png") repeat;
+                line-height: 1.62em;
+                padding: 20px;
+                padding-top: 30px;
+                clip-path: polygon(0 2%, 100% 0, 100% 100%, 0 98%);
+            }
+
+            .paper-even {
+                clip-path: polygon(0 0, 100% 2%, 100% 98%, 0 100%);
             }
             
             .written {
