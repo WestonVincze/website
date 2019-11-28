@@ -5,7 +5,7 @@ const Index = () => (
         <section className="content">
             <div className="row align-items-center">
                 <div className="col-sm-4">
-                    <img className="photo" src="/assets/images/portrait-cutout.jpg" width="100%"></img>
+                    <img className="photo" src="./assets/images/portrait-cutout.jpg" width="100%"></img>
                 </div>
                 <div className="col-sm-8">
                     <div className="row">
@@ -13,9 +13,9 @@ const Index = () => (
                             <div className="paper">
                                 <h1 className="written text-center">hello there.</h1>
                                 <p>
-                                    I'm a Toronto based coder with a passion for font-end development and design. 
+                                    I'm a Toronto based coder with a passion for front-end development and design. 
                                     I do freelance contracts, but I'm available for full-time employment. 
-                                    I have 2 years of experience on the field and I'm familiar with a plethora of modern technologies.
+                                    I have 2 years of experience in the field and I'm familiar with a plethora of modern technologies.
                                 </p>
                             </div>
                         </div>
@@ -25,7 +25,7 @@ const Index = () => (
 
             <div className="row">
                 <div className="col-12 text-center">
-                    <h2 className="subtitle">what I do for you.</h2>
+                    <h2 className="subtitle">what I can do for you.</h2>
                 </div>
             </div>
 
@@ -35,19 +35,19 @@ const Index = () => (
                         <h1 className="written text-center">visualize.</h1>
                         <p>
                             Your vision becomes your reality as I work with you to create the look and feel
-                            you desire. Your website is and extension of your brand and, as a perfectionist,
+                            you desire. Your website is an extension of your brand and, as a perfectionist,
                             I will ensure your website is exactly as you desire.
                         </p>
                     </div>
                 </div>
                 <div className="col-md-3 text-center">
-                    <img className="circle-graphic" src="/assets/images/eye.png"></img>
+                    <img className="circle-graphic" src="assets/images/eye.png"></img>
                 </div>
             </div>
 
             <div className="row align-items-center">
                 <div className="col-md-3 order-md-1 order-2 text-center">
-                    <img className="circle-graphic" src="/assets/images/design.png"></img>
+                    <img className="circle-graphic" src="assets/images/design.png"></img>
                 </div>
                 <div className="col-md-9 order-md-2 order-1">
                     <div className="paper">
@@ -65,14 +65,13 @@ const Index = () => (
                     <div className="paper paper-even">
                         <h1 className="written text-center">adapt.</h1>
                         <p>
-                            Your designs should adapt to any device or technology your users require. 
-                            I ensure your website is stunning regardless of the device on which it is presented
-                            and consistent across all browsers.
+                            Responsiveness is a requirement and I ensure your website is stunning regardless of the device on which it is presented
+                            and consistent across all browsers and platforms.
                         </p>
                     </div>
                 </div>
                 <div className="col-md-3 text-center">
-                    <img className="circle-graphic" src="/assets/images/responsive.png"></img>
+                    <img className="circle-graphic" src="assets/images/responsive.png"></img>
                 </div>
             </div>
 

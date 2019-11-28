@@ -72,7 +72,7 @@ const Skills = () => (
                         </div>
                         <div className="paper row">
                             <div className="col-6">
-                                <h1 className="written">visualization.</h1>
+                                <h1 className="written">planning.</h1>
                                 <p>
                                     Jira, Confluence, Trello
                                 </p>
