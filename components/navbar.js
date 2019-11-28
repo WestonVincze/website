@@ -23,7 +23,6 @@ const Navbar = () => (
                 nav { 
                     background-color: #cce6ff;
                     background-color: #fd8469;
-                    position: sticky;
                     top: 0;
                     z-index: 10;
                 }
@@ -52,6 +51,7 @@ const Navbar = () => (
                     margin-top: 4px;
                     color: inherit; 
                     background-color: #f1d592;
+                    background-color: #f3dca3;
                 }
 
                 nav ul li a:hover {
