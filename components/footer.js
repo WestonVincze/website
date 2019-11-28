@@ -70,13 +70,11 @@ const Footer = () => (
                 color: transparent;
             }
             .text-link {
-                transition: color 0.5s ease;
                 text-decoration: none;
                 color: inherit;
             }
             .text-link:hover {
-                transition: color 0.5s ease;
-                border-bottom: 2px solid white;
+                border-bottom: 1.5px solid #fd8469;
             }
         `}</style>
     </div>
