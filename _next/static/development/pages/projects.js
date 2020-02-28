@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/skills.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/projects.js"],{
 
 /***/ "./components/bottomBar.js":
 /*!*********************************!*\
@@ -5714,21 +5714,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fskills&absolutePagePath=%2Fmnt%2Fc%2FUsers%2FWeston%2FDocuments%2FWebsites%2FWeston%2Fpages%2Fskills.js!./":
-/*!**************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fskills&absolutePagePath=%2Fmnt%2Fc%2FUsers%2FWeston%2FDocuments%2FWebsites%2FWeston%2Fpages%2Fskills.js ***!
-  \**************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fprojects&absolutePagePath=%2Fmnt%2Fc%2FUsers%2FWeston%2FDocuments%2FWebsites%2FWeston%2Fpages%2Fprojects.js!./":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fprojects&absolutePagePath=%2Fmnt%2Fc%2FUsers%2FWeston%2FDocuments%2FWebsites%2FWeston%2Fpages%2Fprojects.js ***!
+  \******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/skills", function() {
-      var mod = __webpack_require__(/*! ./pages/skills.js */ "./pages/skills.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/projects", function() {
+      var mod = __webpack_require__(/*! ./pages/projects.js */ "./pages/projects.js")
       if(true) {
-        module.hot.accept(/*! ./pages/skills.js */ "./pages/skills.js", function() {
-          if(!next.router.components["/skills"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/skills.js */ "./pages/skills.js")
-          next.router.update("/skills", updatedPage)
+        module.hot.accept(/*! ./pages/projects.js */ "./pages/projects.js", function() {
+          if(!next.router.components["/projects"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/projects.js */ "./pages/projects.js")
+          next.router.update("/projects", updatedPage)
         })
       }
       return mod
@@ -12126,10 +12126,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/skills.js":
-/*!*************************!*\
-  !*** ./pages/skills.js ***!
-  \*************************/
+/***/ "./pages/projects.js":
+/*!***************************!*\
+  !*** ./pages/projects.js ***!
+  \***************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12140,646 +12140,717 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./components/layout.js");
-var _jsxFileName = "/mnt/c/Users/Weston/Documents/Websites/Weston/pages/skills.js";
+var _jsxFileName = "/mnt/c/Users/Weston/Documents/Websites/Weston/pages/projects.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
-var Skills = function Skills() {
+var Projects = function Projects() {
   return __jsx("div", {
-    className: "jsx-4237684966",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }, __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, __jsx("section", {
-    className: "jsx-4237684966" + " " + "content",
+  }, __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "row",
+  }, __jsx("section", {
+    className: "jsx-4116229344" + " " + "content",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
   }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "offset-lg-3 col-lg-6",
+    className: "jsx-4116229344" + " " + "row",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
   }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "paper",
+    className: "jsx-4116229344" + " " + "offset-lg-3 col-lg-6",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, __jsx("h1", {
-    className: "jsx-4237684966" + " " + "written text-center",
+  }, __jsx("div", {
+    className: "jsx-4116229344" + " " + "paper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, "my mission statement."), __jsx("p", {
-    className: "jsx-4237684966",
+  }, __jsx("h1", {
+    className: "jsx-4116229344" + " " + "written text-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, "To obtain a full-time or contract position where my specialization of front-end development will turn visions into reality.")))), __jsx("hr", {
-    className: "jsx-4237684966",
+  }, "my work."), __jsx("p", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 12
     },
     __self: this
-  }), __jsx("div", {
-    className: "jsx-4237684966" + " " + "row",
+  }, "Below are some of the projects that I've either fully developed or developed as part of a small team. This list only includes only the public, live websites.")))), __jsx("hr", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "col-lg-5",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "row",
+  }), __jsx("div", {
+    className: "jsx-4116229344" + " " + "row dogdojo align-items-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
   }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "col-12",
+    className: "jsx-4116229344" + " " + "col-lg-6 order-2 order-lg-1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }, __jsx("h2", {
-    className: "jsx-4237684966" + " " + "text-center",
+  }, __jsx("div", {
+    className: "jsx-4116229344" + " " + "description",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
-  }, "qualifications."))), __jsx("div", {
-    className: "jsx-4237684966" + " " + "paper paper-even",
+  }, __jsx("h4", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "https://dogdojo-dev-as.azurewebsites.net/",
+    target: "_blank",
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "DogDojo")), __jsx("h5", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "Personal Project"), __jsx("br", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
     },
     __self: this
-  }, __jsx("h1", {
-    className: "jsx-4237684966" + " " + "written",
+  }), __jsx("p", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: this
-  }, "profile highlights."), __jsx("ul", {
-    className: "jsx-4237684966",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, __jsx("li", {
-    className: "jsx-4237684966",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, "2+ years experience as a junior web developer"), __jsx("li", {
-    className: "jsx-4237684966",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, "Easily adaptable to changes in assignments with a willingness to learn new skills"), __jsx("li", {
-    className: "jsx-4237684966",
+  }, "I designed and built a mock dog store web application using ASP.net core MVC, C#, Bootstrap, and SQL. Source code available on my GitHub, where updates are automated through a DevOps pineline configuration with Azure DevOps. I designed and animated the logo, created the layout, and developed the application as a learning project.", __jsx("br", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
     },
     __self: this
-  }, "Reliable team member who works well independently with little or no supervision"), __jsx("li", {
-    className: "jsx-4237684966",
+  }), __jsx("br", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 31
     },
     __self: this
-  }, "Able to work well under pressure in fast-paced environments"), __jsx("li", {
-    className: "jsx-4237684966",
+  }), "Using the MVC methodology this mock store allows the creation of users, management of user accounts, a virtual checkout system, and form and field validation. Using an SQL database and Entity Framework Core this application stores and manages user data."))), __jsx("div", {
+    className: "jsx-4116229344" + " " + "col-lg-6 no-padding order-1 order-lg-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 37
     },
     __self: this
-  }, "Detail-orientated with solid organizational and time management skills"), __jsx("li", {
-    className: "jsx-4237684966",
+  }, __jsx("img", {
+    src: "assets/images/dogdojo.png",
+    alt: "DogDojo Screenshot",
+    className: "jsx-4116229344" + " " + "img-fluid",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 38
     },
     __self: this
-  }, "Creative and passionate about the design and implementation of new ideas"), __jsx("li", {
-    className: "jsx-4237684966",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }, "3.7 GPA (out of 4.0)")))), __jsx("div", {
-    className: "jsx-4237684966" + " " + "col-lg-7",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "col-12",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, __jsx("h2", {
-    className: "jsx-4237684966" + " " + "text-center",
+  }))), __jsx("div", {
+    className: "jsx-4116229344" + " " + "row enroute align-items-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
     },
     __self: this
-  }, "technical skills."))), __jsx("div", {
-    className: "jsx-4237684966" + " " + "row paper",
+  }, __jsx("div", {
+    className: "jsx-4116229344" + " " + "col-lg-6 no-padding",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 43
     },
     __self: this
-  }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "col-6",
+  }, __jsx("img", {
+    src: "assets/images/enroute.png",
+    className: "jsx-4116229344" + " " + "img-fluid",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "jsx-4116229344" + " " + "col-lg-6",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46
     },
     __self: this
-  }, __jsx("h1", {
-    className: "jsx-4237684966" + " " + "written",
+  }, __jsx("div", {
+    className: "jsx-4116229344" + " " + "description",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 47
     },
     __self: this
-  }, "languages."), __jsx("p", {
-    className: "jsx-4237684966",
+  }, __jsx("h4", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 48
     },
     __self: this
-  }, "C#, ASP.NET, Python, HTML, CSS, SCSS, PHP, JavaScript")), __jsx("div", {
-    className: "jsx-4237684966" + " " + "col-6",
+  }, __jsx("a", {
+    href: "https://enroute.aircanada.com/",
+    target: "_blank",
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 48
     },
     __self: this
-  }, __jsx("h1", {
-    className: "jsx-4237684966" + " " + "written",
+  }, "Air Canada Enroute")), __jsx("h5", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, "LBC IT Solutions Inc."), __jsx("br", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }), __jsx("p", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "I worked as part of a team to develop the enroute air canada website using REACT, Bootstrap and Contentful. The pages and layouts were created as per the design requirements which were explicitly defined through images.", __jsx("br", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 53
     },
     __self: this
-  }, "frameworks."), __jsx("p", {
-    className: "jsx-4237684966",
+  }), __jsx("br", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 53
     },
     __self: this
-  }, "React, Vue, Node, Isotope, JQuery, Bootstrap"))), __jsx("div", {
-    className: "jsx-4237684966" + " " + "paper paper-even row",
+  }), "Trello was used for task management and communication with the client. Articles are pulled from contentful and dynamically displayed through frontend REACT components.", __jsx("br", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 55
+    },
+    __self: this
+  }), __jsx("br", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }), "Tasks were delegated to team members in order to complete them quickly and effectively. I worked as a frontend developer to ensure design requirements were met on various screen sizes. I worked with the client to deliver a product that was as close to their initial design as possible.")))), __jsx("div", {
+    className: "jsx-4116229344" + " " + "row smg align-items-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
     },
     __self: this
   }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "col-6",
+    className: "jsx-4116229344" + " " + "col-lg-6 order-2 order-lg-1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 65
     },
     __self: this
-  }, __jsx("h1", {
-    className: "jsx-4237684966" + " " + "written",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: this
-  }, "database."), __jsx("p", {
-    className: "jsx-4237684966",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
-    },
-    __self: this
-  }, "Cosmos DB, SQL (MySql Sqlite)")), __jsx("div", {
-    className: "jsx-4237684966" + " " + "col-6",
+  }, __jsx("div", {
+    className: "jsx-4116229344" + " " + "description",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 66
     },
     __self: this
-  }, __jsx("h1", {
-    className: "jsx-4237684966" + " " + "written",
+  }, __jsx("h4", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 67
     },
     __self: this
-  }, "version control."), __jsx("p", {
-    className: "jsx-4237684966",
+  }, __jsx("a", {
+    href: "https://sierramanagementgroup.com/",
+    target: "_blank",
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }, "Sierra Management Group")), __jsx("h5", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 68
     },
     __self: this
-  }, "git, github, sourcetree"))), __jsx("div", {
-    className: "jsx-4237684966" + " " + "paper row",
+  }, "LBC IT Solutions Inc."), __jsx("br", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }), __jsx("p", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, "I fully developed this website using WordPress and a custom-tailored theme which used isotope.js to layout elements based on design concepts presented by the client. I customized the existing theme using the industry standard child-theme method in order to satisfy client requirements. ", __jsx("br", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 73
     },
     __self: this
-  }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "col-6",
+  }), __jsx("br", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 73
     },
     __self: this
-  }, __jsx("h1", {
-    className: "jsx-4237684966" + " " + "written",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75
-    },
-    __self: this
-  }, "planning."), __jsx("p", {
-    className: "jsx-4237684966",
+  }), "Through this customization I:"), __jsx("ul", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 76
     },
     __self: this
-  }, "Jira, Confluence, Trello")), __jsx("div", {
-    className: "jsx-4237684966" + " " + "col-6",
+  }, __jsx("li", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }, "altered the layout options from 3 to 4"), __jsx("li", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }, "modified the dynamic HTML of existing components"), __jsx("li", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  }, "created components for new use cases"), __jsx("li", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 80
     },
     __self: this
-  }, __jsx("h1", {
-    className: "jsx-4237684966" + " " + "written",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81
-    },
-    __self: this
-  }, "software."), __jsx("p", {
-    className: "jsx-4237684966",
+  }, "changed the JQuery animations")), __jsx("p", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 82
     },
     __self: this
-  }, "Visual Studio (Code), Vi(m), Adobe Suite (Illustrator, Photoshop)"))))), __jsx("hr", {
-    className: "jsx-4237684966",
+  }, "I worked with the client through Trello in order to manage tasks, receive feedback and discuss design options. When the site was completed I created documentation which demonstrated the steps to add or alter the content and modify the layout of the website."))), __jsx("div", {
+    className: "jsx-4116229344" + " " + "col-lg-6 no-padding order-1 order-lg-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "assets/images/smg.png",
+    className: "jsx-4116229344" + " " + "img-fluid",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 89
     },
     __self: this
-  }), __jsx("div", {
-    className: "jsx-4237684966" + " " + "row",
+  }))), __jsx("div", {
+    className: "jsx-4116229344" + " " + "row luc align-items-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 93
     },
     __self: this
   }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "col-12",
+    className: "jsx-4116229344" + " " + "col-lg-6 no-padding",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 94
     },
     __self: this
-  }, __jsx("h2", {
-    className: "jsx-4237684966" + " " + "text-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92
-    },
-    __self: this
-  }, "education."))), __jsx("div", {
-    className: "jsx-4237684966" + " " + "row",
+  }, __jsx("img", {
+    src: "assets/images/luc.png",
+    className: "jsx-4116229344" + " " + "img-fluid",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 95
     },
     __self: this
-  }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "offset-lg-3 col-lg-6",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "paper",
+  })), __jsx("div", {
+    className: "jsx-4116229344" + " " + "col-lg-6",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 97
     },
     __self: this
-  }, __jsx("h1", {
-    className: "jsx-4237684966" + " " + "written",
+  }, __jsx("div", {
+    className: "jsx-4116229344" + " " + "description",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 98
     },
     __self: this
-  }, "computer programming and analysis diploma."), __jsx("p", {
-    className: "jsx-4237684966",
+  }, __jsx("h4", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 99
     },
     __self: this
-  }, __jsx("span", {
-    className: "jsx-4237684966" + " " + "font-weight-bold",
+  }, __jsx("a", {
+    href: "https://lincolnurgentcare.com/",
+    target: "_blank",
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, "Lincoln Urgent Care")), __jsx("h5", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 100
     },
     __self: this
-  }, "Seneca College :"), " September 2015 \u2013 May 2018")))), __jsx("hr", {
-    className: "jsx-4237684966",
+  }, "LBC IT Solutions Inc."), __jsx("br", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 101
     },
     __self: this
-  }), __jsx("div", {
-    className: "jsx-4237684966" + " " + "row",
+  }), __jsx("p", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 102
     },
     __self: this
-  }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "col-12",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 107
-    },
-    __self: this
-  }, __jsx("h2", {
-    className: "jsx-4237684966" + " " + "text-center",
+  }, "I developed Lincoln Urgent Care website using modified templates for similar websites developed by LBC IT Solutions Inc. The templates were built using twig (PHP based template tool), SCSS and node. Using npm, the project was rendered into static HTML and deployed. I modified and improved the templates and some of the modifications were introduced to the sister websites. Styles were also customized to suit the branding of Lincoln Urgent Care."), __jsx("p", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 108
     },
     __self: this
-  }, "experience."))), __jsx("div", {
-    className: "jsx-4237684966" + " " + "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 111
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "offset-lg-3 col-lg-6",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 112
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "paper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 113
-    },
-    __self: this
-  }, __jsx("h1", {
-    className: "jsx-4237684966" + " " + "written",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 114
-    },
-    __self: this
-  }, "junior web developer."), __jsx("span", {
-    className: "jsx-4237684966" + " " + "font-weight-bold",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 115
-    },
-    __self: this
-  }, "LBC IT Solutions Inc, Toronto"), " ", __jsx("br", {
-    className: "jsx-4237684966",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 115
-    },
-    __self: this
-  }), __jsx("span", {
-    className: "jsx-4237684966" + " " + "font-italic",
+  }, "I maintained updates for Lincoln Urgent Care and sister websites through the client using Trello. Tasks were completed in a development server and approved by the client before applying the changes to live sites.")))), __jsx("div", {
+    className: "jsx-4116229344" + " " + "row p9 align-items-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 116
     },
     __self: this
-  }, "July 2018 \u2013 November 2019"), " ", __jsx("br", {
-    className: "jsx-4237684966",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 116
-    },
-    __self: this
-  }), __jsx("ul", {
-    className: "jsx-4237684966",
+  }, __jsx("div", {
+    className: "jsx-4116229344" + " " + "col-lg-6 order-2 order-lg-1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 117
     },
     __self: this
-  }, __jsx("li", {
-    className: "jsx-4237684966",
+  }, __jsx("div", {
+    className: "jsx-4116229344" + " " + "description",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 118
     },
     __self: this
-  }, "Developed client websites (full stack) on my own and with a team using various technologies (primarily ASP.NET Core, Vue.js, React.js and WordPress)"), __jsx("li", {
-    className: "jsx-4237684966",
+  }, __jsx("h4", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 119
     },
     __self: this
-  }, "Designed, developed and launched client website SierraManagementGroup.com using WordPress and custom tailored an isotope.js theme to meet client needs"), __jsx("li", {
-    className: "jsx-4237684966",
+  }, __jsx("a", {
+    href: "https://phasenyne.com/",
+    target: "_blank",
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 119
+    },
+    __self: this
+  }, "PhaseNyne")), __jsx("h5", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 120
     },
     __self: this
-  }, "Maintained and redesigned websites for various clients; implemented changes using a diverse number of technologies and website builders"), __jsx("li", {
-    className: "jsx-4237684966",
+  }, "LBC IT Solutions Inc."), __jsx("br", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 121
     },
     __self: this
-  }, "Worked directly with clients to organize and manage tasks through project management services like Trello"), __jsx("li", {
-    className: "jsx-4237684966",
+  }), __jsx("p", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 122
     },
     __self: this
-  }, "Followed best practises for source control and documentation"))))), __jsx("div", {
-    className: "jsx-4237684966" + " " + "row",
+  }, "I worked as part of a team to develop features for the PhaseNyne website using WordPress. I assisted in the development of the initial website and after it was completed I developed the Irish version and maintained updates."), __jsx("p", {
+    className: "jsx-4116229344",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 126
     },
     __self: this
-  }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "offset-lg-3 col-lg-6",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 128
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "jsx-4237684966" + " " + "paper paper-even",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 129
-    },
-    __self: this
-  }, __jsx("h1", {
-    className: "jsx-4237684966" + " " + "written",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 130
-    },
-    __self: this
-  }, "software engineer."), __jsx("span", {
-    className: "jsx-4237684966" + " " + "font-weight-bold",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 131
-    },
-    __self: this
-  }, "PWC Technologies, Scarborough"), " ", __jsx("br", {
-    className: "jsx-4237684966",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 131
-    },
-    __self: this
-  }), __jsx("span", {
-    className: "jsx-4237684966" + " " + "font-italic",
+  }, "Once launched, I assisted the PhaseNyne team with a demonstration about how to implement smaller changes and updates. I handled many of the larger updates like new pages and style overhauls along with other team members. Communication was maintained with the client through Trello."))), __jsx("div", {
+    className: "jsx-4116229344" + " " + "col-lg-6 no-padding order-1 order-lg-2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 132
     },
     __self: this
-  }, "January 2017 \u2013 July 2017"), " ", __jsx("br", {
-    className: "jsx-4237684966",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 132
-    },
-    __self: this
-  }), __jsx("ul", {
-    className: "jsx-4237684966",
+  }, __jsx("img", {
+    src: "assets/images/p9.png",
+    className: "jsx-4116229344" + " " + "img-fluid",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 133
     },
     __self: this
-  }, __jsx("li", {
-    className: "jsx-4237684966",
+  }))), __jsx("div", {
+    className: "jsx-4116229344" + " " + "row pf align-items-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 137
     },
     __self: this
-  }, "Completed weekly sprints and attended team meetings at Scotiabank on an agile oriented team for the Courier Bag project"), __jsx("li", {
-    className: "jsx-4237684966",
+  }, __jsx("div", {
+    className: "jsx-4116229344" + " " + "col-lg-6 no-padding",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
+      lineNumber: 138
     },
     __self: this
-  }, "Contributed to the design and development of the web app LLENA (a nutrition app) and developed a prototype (full stack) using HTML5, JS, JQuery, PHP, CSS and MySQL"))))))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "4237684966",
+  }, __jsx("img", {
+    src: "assets/images/pf.png",
+    className: "jsx-4116229344" + " " + "img-fluid",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 139
+    },
     __self: this
-  }, ".fa-square.jsx-4237684966{color:white;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tbnQvYy9Vc2Vycy9XZXN0b24vRG9jdW1lbnRzL1dlYnNpdGVzL1dlc3Rvbi9wYWdlcy9za2lsbHMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBOElvQixBQUc2QixZQUNoQiIsImZpbGUiOiIvbW50L2MvVXNlcnMvV2VzdG9uL0RvY3VtZW50cy9XZWJzaXRlcy9XZXN0b24vcGFnZXMvc2tpbGxzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tICcuLi9jb21wb25lbnRzL2xheW91dCc7XHJcblxyXG5jb25zdCBTa2lsbHMgPSAoKSA9PiAoXHJcbiAgICA8ZGl2PlxyXG4gICAgICAgIDxMYXlvdXQ+XHJcbiAgICAgICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cImNvbnRlbnRcIj5cclxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJvZmZzZXQtbGctMyBjb2wtbGctNlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInBhcGVyXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDEgY2xhc3NOYW1lPVwid3JpdHRlbiB0ZXh0LWNlbnRlclwiPm15IG1pc3Npb24gc3RhdGVtZW50LjwvaDE+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUbyBvYnRhaW4gYSBmdWxsLXRpbWUgb3IgY29udHJhY3QgcG9zaXRpb24gd2hlcmUgbXkgc3BlY2lhbGl6YXRpb24gb2YgZnJvbnQtZW5kIGRldmVsb3BtZW50IHdpbGxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0dXJuIHZpc2lvbnMgaW50byByZWFsaXR5LiBcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgIDxocj48L2hyPlxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy01XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC0xMlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9XCJ0ZXh0LWNlbnRlclwiPnF1YWxpZmljYXRpb25zLjwvaDI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicGFwZXIgcGFwZXItZXZlblwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT1cIndyaXR0ZW5cIj5wcm9maWxlIGhpZ2hsaWdodHMuPC9oMT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx1bD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+MisgeWVhcnMgZXhwZXJpZW5jZSBhcyBhIGp1bmlvciB3ZWIgZGV2ZWxvcGVyPC9saT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+RWFzaWx5IGFkYXB0YWJsZSB0byBjaGFuZ2VzIGluIGFzc2lnbm1lbnRzIHdpdGggYSB3aWxsaW5nbmVzcyB0byBsZWFybiBuZXcgc2tpbGxzPC9saT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+UmVsaWFibGUgdGVhbSBtZW1iZXIgd2hvIHdvcmtzIHdlbGwgaW5kZXBlbmRlbnRseSB3aXRoIGxpdHRsZSBvciBubyBzdXBlcnZpc2lvbjwvbGk+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPkFibGUgdG8gd29yayB3ZWxsIHVuZGVyIHByZXNzdXJlIGluIGZhc3QtcGFjZWQgZW52aXJvbm1lbnRzPC9saT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+RGV0YWlsLW9yaWVudGF0ZWQgd2l0aCBzb2xpZCBvcmdhbml6YXRpb25hbCBhbmQgdGltZSBtYW5hZ2VtZW50IHNraWxsczwvbGk+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPkNyZWF0aXZlIGFuZCBwYXNzaW9uYXRlIGFib3V0IHRoZSBkZXNpZ24gYW5kIGltcGxlbWVudGF0aW9uIG9mIG5ldyBpZGVhczwvbGk+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjMuNyBHUEEgKG91dCBvZiA0LjApPC9saT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdWw+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTdcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLTEyXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT1cInRleHQtY2VudGVyXCI+dGVjaG5pY2FsIHNraWxscy48L2gyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvdyBwYXBlclwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtNlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9XCJ3cml0dGVuXCI+bGFuZ3VhZ2VzLjwvaDE+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEMjLCBBU1AuTkVULCBQeXRob24sIEhUTUwsIENTUywgU0NTUywgUEhQLCBKYXZhU2NyaXB0XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9wPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC02XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT1cIndyaXR0ZW5cIj5mcmFtZXdvcmtzLjwvaDE+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFJlYWN0LCBWdWUsIE5vZGUsIElzb3RvcGUsIEpRdWVyeSwgQm9vdHN0cmFwXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9wPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInBhcGVyIHBhcGVyLWV2ZW4gcm93XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC02XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT1cIndyaXR0ZW5cIj5kYXRhYmFzZS48L2gxPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBDb3Ntb3MgREIsIFNRTCAoTXlTcWwgU3FsaXRlKVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtNlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9XCJ3cml0dGVuXCI+dmVyc2lvbiBjb250cm9sLjwvaDE+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGdpdCwgZ2l0aHViLCBzb3VyY2V0cmVlXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9wPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInBhcGVyIHJvd1wiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtNlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9XCJ3cml0dGVuXCI+cGxhbm5pbmcuPC9oMT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgSmlyYSwgQ29uZmx1ZW5jZSwgVHJlbGxvXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9wPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC02XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT1cIndyaXR0ZW5cIj5zb2Z0d2FyZS48L2gxPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBWaXN1YWwgU3R1ZGlvIChDb2RlKSwgVmkobSksIEFkb2JlIFN1aXRlIChJbGx1c3RyYXRvciwgUGhvdG9zaG9wKVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgPGhyPjwvaHI+XHJcbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxyXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLTEyXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9XCJ0ZXh0LWNlbnRlclwiPmVkdWNhdGlvbi48L2gyPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxyXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwib2Zmc2V0LWxnLTMgY29sLWxnLTZcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwYXBlclwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT1cIndyaXR0ZW5cIj5jb21wdXRlciBwcm9ncmFtbWluZyBhbmQgYW5hbHlzaXMgZGlwbG9tYS48L2gxPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwiZm9udC13ZWlnaHQtYm9sZFwiPlNlbmVjYSBDb2xsZWdlIDo8L3NwYW4+IFNlcHRlbWJlciAyMDE1IOKAkyBNYXkgMjAxOFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9wPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgPGhyPjwvaHI+XHJcbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxyXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLTEyXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9XCJ0ZXh0LWNlbnRlclwiPmV4cGVyaWVuY2UuPC9oMj5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm9mZnNldC1sZy0zIGNvbC1sZy02XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicGFwZXJcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9XCJ3cml0dGVuXCI+anVuaW9yIHdlYiBkZXZlbG9wZXIuPC9oMT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImZvbnQtd2VpZ2h0LWJvbGRcIj5MQkMgSVQgU29sdXRpb25zIEluYywgVG9yb250bzwvc3Bhbj4gPGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJmb250LWl0YWxpY1wiPkp1bHkgMjAxOCDigJMgTm92ZW1iZXIgMjAxOTwvc3Bhbj4gPGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dWw+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPkRldmVsb3BlZCBjbGllbnQgd2Vic2l0ZXMgKGZ1bGwgc3RhY2spIG9uIG15IG93biBhbmQgd2l0aCBhIHRlYW0gdXNpbmcgdmFyaW91cyB0ZWNobm9sb2dpZXMgKHByaW1hcmlseSBBU1AuTkVUIENvcmUsIFZ1ZS5qcywgUmVhY3QuanMgYW5kIFdvcmRQcmVzcyk8L2xpPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT5EZXNpZ25lZCwgZGV2ZWxvcGVkIGFuZCBsYXVuY2hlZCBjbGllbnQgd2Vic2l0ZSBTaWVycmFNYW5hZ2VtZW50R3JvdXAuY29tIHVzaW5nIFdvcmRQcmVzcyBhbmQgY3VzdG9tIHRhaWxvcmVkIGFuIGlzb3RvcGUuanMgdGhlbWUgdG8gbWVldCBjbGllbnQgbmVlZHM8L2xpPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT5NYWludGFpbmVkIGFuZCByZWRlc2lnbmVkIHdlYnNpdGVzIGZvciB2YXJpb3VzIGNsaWVudHM7IGltcGxlbWVudGVkIGNoYW5nZXMgdXNpbmcgYSBkaXZlcnNlIG51bWJlciBvZiB0ZWNobm9sb2dpZXMgYW5kIHdlYnNpdGUgYnVpbGRlcnM8L2xpPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT5Xb3JrZWQgZGlyZWN0bHkgd2l0aCBjbGllbnRzIHRvIG9yZ2FuaXplIGFuZCBtYW5hZ2UgdGFza3MgdGhyb3VnaCBwcm9qZWN0IG1hbmFnZW1lbnQgc2VydmljZXMgbGlrZSBUcmVsbG88L2xpPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT5Gb2xsb3dlZCBiZXN0IHByYWN0aXNlcyBmb3Igc291cmNlIGNvbnRyb2wgYW5kIGRvY3VtZW50YXRpb248L2xpPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC91bD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJvZmZzZXQtbGctMyBjb2wtbGctNlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInBhcGVyIHBhcGVyLWV2ZW5cIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9XCJ3cml0dGVuXCI+c29mdHdhcmUgZW5naW5lZXIuPC9oMT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImZvbnQtd2VpZ2h0LWJvbGRcIj5QV0MgVGVjaG5vbG9naWVzLCBTY2FyYm9yb3VnaDwvc3Bhbj4gPGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJmb250LWl0YWxpY1wiPkphbnVhcnkgMjAxNyDigJMgSnVseSAyMDE3PC9zcGFuPiA8YnI+PC9icj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx1bD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+Q29tcGxldGVkIHdlZWtseSBzcHJpbnRzIGFuZCBhdHRlbmRlZCB0ZWFtIG1lZXRpbmdzIGF0IFNjb3RpYWJhbmsgb24gYW4gYWdpbGUgb3JpZW50ZWQgdGVhbSBmb3IgdGhlIENvdXJpZXIgQmFnIHByb2plY3Q8L2xpPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT5Db250cmlidXRlZCB0byB0aGUgZGVzaWduIGFuZCBkZXZlbG9wbWVudCBvZiB0aGUgd2ViIGFwcCBMTEVOQSAoYSBudXRyaXRpb24gYXBwKSBhbmQgZGV2ZWxvcGVkIGEgcHJvdG90eXBlIChmdWxsIHN0YWNrKSB1c2luZyBIVE1MNSwgSlMsIEpRdWVyeSwgUEhQLCBDU1MgYW5kIE15U1FMPC9saT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdWw+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcblxyXG4gICAgICAgICAgICA8L3NlY3Rpb24+XHJcbiAgICAgICAgPC9MYXlvdXQ+XHJcbiAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICAgICAuZmEtc3F1YXJlIHtcclxuICAgICAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgIGB9PC9zdHlsZT5cclxuICAgIDwvZGl2PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgU2tpbGxzOyJdfQ== */\n/*@ sourceURL=/mnt/c/Users/Weston/Documents/Websites/Weston/pages/skills.js */"));
+  })), __jsx("div", {
+    className: "jsx-4116229344" + " " + "col-lg-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 141
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "jsx-4116229344" + " " + "description",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 142
+    },
+    __self: this
+  }, __jsx("h4", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 143
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "https://www.pentictonfoundry.com/",
+    target: "_blank",
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 143
+    },
+    __self: this
+  }, "Penticton Foundry")), __jsx("h5", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 144
+    },
+    __self: this
+  }, "LBC IT Solutions Inc."), __jsx("br", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 145
+    },
+    __self: this
+  }), __jsx("p", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 146
+    },
+    __self: this
+  }, "I recreated Penticton Foundry's old website, which was made with a depreciated website builder, using WordPress. I also implemented additional features and styles - including a more responsive design.")))), __jsx("div", {
+    className: "jsx-4116229344" + " " + "row brain align-items-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 154
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "jsx-4116229344" + " " + "col-lg-6 order-2 order-lg-1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 155
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "jsx-4116229344" + " " + "description",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 156
+    },
+    __self: this
+  }, __jsx("h4", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 157
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "http://www.brainproject.ca/",
+    target: "_blank",
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 157
+    },
+    __self: this
+  }, "The Brain Project")), __jsx("h5", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 158
+    },
+    __self: this
+  }, "LBC IT Solutions Inc."), __jsx("br", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 159
+    },
+    __self: this
+  }), __jsx("p", {
+    className: "jsx-4116229344",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 160
+    },
+    __self: this
+  }, "I updated the site to include the 2018 and 2019 artists and projects. I also made other small updates, like adding new banners and changing the content and layout of some existing pages. This site was built with WordPress and a custom theme which utilized loops to dynamically display content once added to WordPress."))), __jsx("div", {
+    className: "jsx-4116229344" + " " + "col-lg-6 no-padding order-1 order-lg-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 167
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "assets/images/brain.png",
+    className: "jsx-4116229344" + " " + "img-fluid",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 168
+    },
+    __self: this
+  }))))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "4116229344",
+    __self: this
+  }, ".enroute.jsx-4116229344{background-color:#74a4c7;color:#fff;}.smg.jsx-4116229344{background-color:#242423;color:#fff;}.luc.jsx-4116229344{background-color:#f6fbff;}.brain.jsx-4116229344,.pf.jsx-4116229344,.p9.jsx-4116229344,.dogdojo.jsx-4116229344{background-color:#fff;}.description.jsx-4116229344{padding:20px;}.no-padding.jsx-4116229344{padding:0;}a.jsx-4116229344{-webkit-text-decoration:none;text-decoration:none;color:inherit;}a.jsx-4116229344:hover{border-bottom:1.5px solid;}@media screen and (max-width:520px){h3.jsx-4116229344{font-size:1.3em;}h4.jsx-4116229344,h5.jsx-4116229344{font-size:1em;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tbnQvYy9Vc2Vycy9XZXN0b24vRG9jdW1lbnRzL1dlYnNpdGVzL1dlc3Rvbi9wYWdlcy9wcm9qZWN0cy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE0S29CLEFBRzBDLEFBS0EsQUFLQSxBQUlILEFBSVQsQUFJSCxBQUlXLEFBS0ssQUFLTixBQUdGLFVBaEJ0QixHQUpBLENBcUJJLEVBSEEsTUF0QkosR0FkZSxBQUtBLEFBS2YsQ0FxQkEsVUE5QkEsQUFLQSxjQW9Ca0IsY0FDbEIiLCJmaWxlIjoiL21udC9jL1VzZXJzL1dlc3Rvbi9Eb2N1bWVudHMvV2Vic2l0ZXMvV2VzdG9uL3BhZ2VzL3Byb2plY3RzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tICcuLi9jb21wb25lbnRzL2xheW91dCc7XHJcblxyXG5jb25zdCBQcm9qZWN0cyA9ICgpID0+IChcclxuXHJcbiAgICA8ZGl2PlxyXG4gICAgICAgIDxMYXlvdXQ+XHJcbiAgICAgICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cImNvbnRlbnRcIj5cclxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJvZmZzZXQtbGctMyBjb2wtbGctNlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInBhcGVyXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDEgY2xhc3NOYW1lPVwid3JpdHRlbiB0ZXh0LWNlbnRlclwiPm15IHdvcmsuPC9oMT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEJlbG93IGFyZSBzb21lIG9mIHRoZSBwcm9qZWN0cyB0aGF0IEkndmUgZWl0aGVyIGZ1bGx5IGRldmVsb3BlZCBvciBkZXZlbG9wZWQgYXMgcGFydCBvZiBhIHNtYWxsIHRlYW0uIFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRoaXMgbGlzdCBvbmx5IGluY2x1ZGVzIG9ubHkgdGhlIHB1YmxpYywgbGl2ZSB3ZWJzaXRlcy5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgIDxocj48L2hyPlxyXG4gICAgICAgICAgICAgICAgey8qIERvZ0Rvam8gKi99XHJcbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvdyBkb2dkb2pvIGFsaWduLWl0ZW1zLWNlbnRlclwiPlxyXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTYgb3JkZXItMiBvcmRlci1sZy0xXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVzY3JpcHRpb25cIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoND48YSBocmVmPVwiaHR0cHM6Ly9kb2dkb2pvLWRldi1hcy5henVyZXdlYnNpdGVzLm5ldC9cIiB0YXJnZXQ9XCJfYmxhbmtcIj5Eb2dEb2pvPC9hPjwvaDQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDU+UGVyc29uYWwgUHJvamVjdDwvaDU+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnI+PC9icj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEkgZGVzaWduZWQgYW5kIGJ1aWx0IGEgbW9jayBkb2cgc3RvcmUgd2ViIGFwcGxpY2F0aW9uIHVzaW5nIEFTUC5uZXQgY29yZSBNVkMsIEMjLCBCb290c3RyYXAsIGFuZCBTUUwuXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU291cmNlIGNvZGUgYXZhaWxhYmxlIG9uIG15IEdpdEh1Yiwgd2hlcmUgdXBkYXRlcyBhcmUgYXV0b21hdGVkIHRocm91Z2ggYSBEZXZPcHMgcGluZWxpbmUgY29uZmlndXJhdGlvbiB3aXRoIEF6dXJlIERldk9wcy5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBJIGRlc2lnbmVkIGFuZCBhbmltYXRlZCB0aGUgbG9nbywgY3JlYXRlZCB0aGUgbGF5b3V0LCBhbmQgZGV2ZWxvcGVkIHRoZSBhcHBsaWNhdGlvbiBhcyBhIGxlYXJuaW5nIHByb2plY3QuXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJyLz48YnIvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFVzaW5nIHRoZSBNVkMgbWV0aG9kb2xvZ3kgdGhpcyBtb2NrIHN0b3JlIGFsbG93cyB0aGUgY3JlYXRpb24gb2YgdXNlcnMsIG1hbmFnZW1lbnQgb2YgdXNlciBhY2NvdW50cywgYSB2aXJ0dWFsIGNoZWNrb3V0IHN5c3RlbSwgYW5kXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9ybSBhbmQgZmllbGQgdmFsaWRhdGlvbi4gVXNpbmcgYW4gU1FMIGRhdGFiYXNlIGFuZCBFbnRpdHkgRnJhbWV3b3JrIENvcmUgdGhpcyBhcHBsaWNhdGlvbiBzdG9yZXMgYW5kIG1hbmFnZXMgdXNlciBkYXRhLlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9wPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy02IG5vLXBhZGRpbmcgb3JkZXItMSBvcmRlci1sZy0yXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPVwiYXNzZXRzL2ltYWdlcy9kb2dkb2pvLnBuZ1wiIGFsdD1cIkRvZ0Rvam8gU2NyZWVuc2hvdFwiIGNsYXNzTmFtZT1cImltZy1mbHVpZFwiLz5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgey8qIEVucm91dGUgKi99XHJcbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvdyBlbnJvdXRlIGFsaWduLWl0ZW1zLWNlbnRlclwiPlxyXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTYgbm8tcGFkZGluZ1wiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8aW1nIGNsYXNzTmFtZT1cImltZy1mbHVpZFwiIHNyYz1cImFzc2V0cy9pbWFnZXMvZW5yb3V0ZS5wbmdcIj48L2ltZz5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy02XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVzY3JpcHRpb25cIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoND48YSBocmVmPVwiaHR0cHM6Ly9lbnJvdXRlLmFpcmNhbmFkYS5jb20vXCIgdGFyZ2V0PVwiX2JsYW5rXCI+QWlyIENhbmFkYSBFbnJvdXRlPC9hPjwvaDQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDU+TEJDIElUIFNvbHV0aW9ucyBJbmMuPC9oNT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxicj48L2JyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgSSB3b3JrZWQgYXMgcGFydCBvZiBhIHRlYW0gdG8gZGV2ZWxvcCB0aGUgZW5yb3V0ZSBhaXIgY2FuYWRhIHdlYnNpdGUgdXNpbmcgUkVBQ1QsIEJvb3RzdHJhcCBhbmQgQ29udGVudGZ1bC5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUaGUgcGFnZXMgYW5kIGxheW91dHMgd2VyZSBjcmVhdGVkIGFzIHBlciB0aGUgZGVzaWduIHJlcXVpcmVtZW50cyB3aGljaCB3ZXJlIGV4cGxpY2l0bHkgZGVmaW5lZCB0aHJvdWdoIGltYWdlcy48YnI+PC9icj48YnI+PC9icj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUcmVsbG8gd2FzIHVzZWQgZm9yIHRhc2sgbWFuYWdlbWVudCBhbmQgY29tbXVuaWNhdGlvbiB3aXRoIHRoZSBjbGllbnQuIEFydGljbGVzIGFyZSBwdWxsZWQgZnJvbSBjb250ZW50ZnVsIGFuZCBkeW5hbWljYWxseVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXllZCB0aHJvdWdoIGZyb250ZW5kIFJFQUNUIGNvbXBvbmVudHMuPGJyPjwvYnI+PGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVGFza3Mgd2VyZSBkZWxlZ2F0ZWQgdG8gdGVhbSBtZW1iZXJzIGluIG9yZGVyIHRvIGNvbXBsZXRlIHRoZW0gcXVpY2tseSBhbmQgZWZmZWN0aXZlbHkuIEkgd29ya2VkIGFzIGEgZnJvbnRlbmQgZGV2ZWxvcGVyIHRvXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZW5zdXJlIGRlc2lnbiByZXF1aXJlbWVudHMgd2VyZSBtZXQgb24gdmFyaW91cyBzY3JlZW4gc2l6ZXMuIEkgd29ya2VkIHdpdGggdGhlIGNsaWVudCB0byBkZWxpdmVyIGEgcHJvZHVjdCB0aGF0IHdhcyBhcyBjbG9zZSB0b1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRoZWlyIGluaXRpYWwgZGVzaWduIGFzIHBvc3NpYmxlLlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9wPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgey8qIFNpZXJyYSBNYW5hZ2VtZW50IEdyb3VwICovfVxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3cgc21nIGFsaWduLWl0ZW1zLWNlbnRlclwiPlxyXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTYgb3JkZXItMiBvcmRlci1sZy0xXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVzY3JpcHRpb25cIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoND48YSBocmVmPVwiaHR0cHM6Ly9zaWVycmFtYW5hZ2VtZW50Z3JvdXAuY29tL1wiIHRhcmdldD1cIl9ibGFua1wiPlNpZXJyYSBNYW5hZ2VtZW50IEdyb3VwPC9hPjwvaDQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDU+TEJDIElUIFNvbHV0aW9ucyBJbmMuPC9oNT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxicj48L2JyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgSSBmdWxseSBkZXZlbG9wZWQgdGhpcyB3ZWJzaXRlIHVzaW5nIFdvcmRQcmVzcyBhbmQgYSBjdXN0b20tdGFpbG9yZWQgdGhlbWUgd2hpY2ggdXNlZCBpc290b3BlLmpzIHRvIGxheW91dCBlbGVtZW50cyBiYXNlZCBcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbiBkZXNpZ24gY29uY2VwdHMgcHJlc2VudGVkIGJ5IHRoZSBjbGllbnQuIEkgY3VzdG9taXplZCB0aGUgZXhpc3RpbmcgdGhlbWUgdXNpbmcgdGhlIGluZHVzdHJ5IHN0YW5kYXJkIGNoaWxkLXRoZW1lIG1ldGhvZCBcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbiBvcmRlciB0byBzYXRpc2Z5IGNsaWVudCByZXF1aXJlbWVudHMuIDxicj48L2JyPjxicj48L2JyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRocm91Z2ggdGhpcyBjdXN0b21pemF0aW9uIEk6XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3A+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHVsPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+YWx0ZXJlZCB0aGUgbGF5b3V0IG9wdGlvbnMgZnJvbSAzIHRvIDQ8L2xpPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+bW9kaWZpZWQgdGhlIGR5bmFtaWMgSFRNTCBvZiBleGlzdGluZyBjb21wb25lbnRzPC9saT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPmNyZWF0ZWQgY29tcG9uZW50cyBmb3IgbmV3IHVzZSBjYXNlczwvbGk+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT5jaGFuZ2VkIHRoZSBKUXVlcnkgYW5pbWF0aW9uczwvbGk+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC91bD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEkgd29ya2VkIHdpdGggdGhlIGNsaWVudCB0aHJvdWdoIFRyZWxsbyBpbiBvcmRlciB0byBtYW5hZ2UgdGFza3MsIHJlY2VpdmUgZmVlZGJhY2sgYW5kIGRpc2N1c3MgZGVzaWduIG9wdGlvbnMuIFdoZW4gdGhlIHNpdGVcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3YXMgY29tcGxldGVkIEkgY3JlYXRlZCBkb2N1bWVudGF0aW9uIHdoaWNoIGRlbW9uc3RyYXRlZCB0aGUgc3RlcHMgdG8gYWRkIG9yIGFsdGVyIHRoZSBjb250ZW50IGFuZCBtb2RpZnkgdGhlIGxheW91dCBvZiB0aGUgd2Vic2l0ZS5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbGctNiBuby1wYWRkaW5nIG9yZGVyLTEgb3JkZXItbGctMlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8aW1nIGNsYXNzTmFtZT1cImltZy1mbHVpZFwiIHNyYz1cImFzc2V0cy9pbWFnZXMvc21nLnBuZ1wiPjwvaW1nPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICB7LyogTGluY29sbiBVcmdlbnQgQ2FyZSAqL31cclxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93IGx1YyBhbGlnbi1pdGVtcy1jZW50ZXJcIj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy02IG5vLXBhZGRpbmdcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBjbGFzc05hbWU9XCJpbWctZmx1aWRcIiBzcmM9XCJhc3NldHMvaW1hZ2VzL2x1Yy5wbmdcIj48L2ltZz5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj4gXHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbGctNlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImRlc2NyaXB0aW9uXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDQ+PGEgaHJlZj1cImh0dHBzOi8vbGluY29sbnVyZ2VudGNhcmUuY29tL1wiIHRhcmdldD1cIl9ibGFua1wiPkxpbmNvbG4gVXJnZW50IENhcmU8L2E+PC9oND5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoNT5MQkMgSVQgU29sdXRpb25zIEluYy48L2g1PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBJIGRldmVsb3BlZCBMaW5jb2xuIFVyZ2VudCBDYXJlIHdlYnNpdGUgdXNpbmcgbW9kaWZpZWQgdGVtcGxhdGVzIGZvciBzaW1pbGFyIHdlYnNpdGVzIGRldmVsb3BlZCBieSBMQkMgSVQgU29sdXRpb25zIEluYy4gXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVGhlIHRlbXBsYXRlcyB3ZXJlIGJ1aWx0IHVzaW5nIHR3aWcgKFBIUCBiYXNlZCB0ZW1wbGF0ZSB0b29sKSwgU0NTUyBhbmQgbm9kZS4gVXNpbmcgbnBtLCB0aGUgcHJvamVjdCB3YXMgcmVuZGVyZWQgaW50byBzdGF0aWMgSFRNTCBhbmRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZXBsb3llZC4gSSBtb2RpZmllZCBhbmQgaW1wcm92ZWQgdGhlIHRlbXBsYXRlcyBhbmQgc29tZSBvZiB0aGUgbW9kaWZpY2F0aW9ucyB3ZXJlIGludHJvZHVjZWQgdG8gdGhlIHNpc3RlciB3ZWJzaXRlcy4gU3R5bGVzIHdlcmUgYWxzb1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1c3RvbWl6ZWQgdG8gc3VpdCB0aGUgYnJhbmRpbmcgb2YgTGluY29sbiBVcmdlbnQgQ2FyZS5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEkgbWFpbnRhaW5lZCB1cGRhdGVzIGZvciBMaW5jb2xuIFVyZ2VudCBDYXJlIGFuZCBzaXN0ZXIgd2Vic2l0ZXMgdGhyb3VnaCB0aGUgY2xpZW50IHVzaW5nIFRyZWxsby4gVGFza3Mgd2VyZSBjb21wbGV0ZWQgaW4gYSBkZXZlbG9wbWVudCBzZXJ2ZXIgYW5kXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXBwcm92ZWQgYnkgdGhlIGNsaWVudCBiZWZvcmUgYXBwbHlpbmcgdGhlIGNoYW5nZXMgdG8gbGl2ZSBzaXRlcy5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgIHsvKiBQaGFzZW55bmUgKi99XHJcbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvdyBwOSBhbGlnbi1pdGVtcy1jZW50ZXJcIj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy02IG9yZGVyLTIgb3JkZXItbGctMVwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImRlc2NyaXB0aW9uXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDQ+PGEgaHJlZj1cImh0dHBzOi8vcGhhc2VueW5lLmNvbS9cIiB0YXJnZXQ9XCJfYmxhbmtcIj5QaGFzZU55bmU8L2E+PC9oND5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoNT5MQkMgSVQgU29sdXRpb25zIEluYy48L2g1PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJyPjwvYnI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBJIHdvcmtlZCBhcyBwYXJ0IG9mIGEgdGVhbSB0byBkZXZlbG9wIGZlYXR1cmVzIGZvciB0aGUgUGhhc2VOeW5lIHdlYnNpdGUgdXNpbmcgV29yZFByZXNzLiBJIGFzc2lzdGVkIGluIHRoZSBkZXZlbG9wbWVudCBvZiB0aGUgaW5pdGlhbCB3ZWJzaXRlXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5kIGFmdGVyIGl0IHdhcyBjb21wbGV0ZWQgSSBkZXZlbG9wZWQgdGhlIElyaXNoIHZlcnNpb24gYW5kIG1haW50YWluZWQgdXBkYXRlcy5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE9uY2UgbGF1bmNoZWQsIEkgYXNzaXN0ZWQgdGhlIFBoYXNlTnluZSB0ZWFtIHdpdGggYSBkZW1vbnN0cmF0aW9uIGFib3V0IGhvdyB0byBpbXBsZW1lbnQgc21hbGxlciBjaGFuZ2VzIGFuZCB1cGRhdGVzLiBJIGhhbmRsZWQgbWFueSBvZiB0aGUgXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFyZ2VyIHVwZGF0ZXMgbGlrZSBuZXcgcGFnZXMgYW5kIHN0eWxlIG92ZXJoYXVscyBhbG9uZyB3aXRoIG90aGVyIHRlYW0gbWVtYmVycy4gQ29tbXVuaWNhdGlvbiB3YXMgbWFpbnRhaW5lZCB3aXRoIHRoZSBjbGllbnQgdGhyb3VnaCBUcmVsbG8uXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3A+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTYgbm8tcGFkZGluZyBvcmRlci0xIG9yZGVyLWxnLTJcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBjbGFzc05hbWU9XCJpbWctZmx1aWRcIiBzcmM9XCJhc3NldHMvaW1hZ2VzL3A5LnBuZ1wiPjwvaW1nPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PiBcclxuICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgey8qIFBlbnRpY3RvbiBGb3VuZHJ5ICovfVxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3cgcGYgYWxpZ24taXRlbXMtY2VudGVyXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbGctNiBuby1wYWRkaW5nXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgY2xhc3NOYW1lPVwiaW1nLWZsdWlkXCIgc3JjPVwiYXNzZXRzL2ltYWdlcy9wZi5wbmdcIj48L2ltZz5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj4gXHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbGctNlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImRlc2NyaXB0aW9uXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDQ+PGEgaHJlZj1cImh0dHBzOi8vd3d3LnBlbnRpY3RvbmZvdW5kcnkuY29tL1wiIHRhcmdldD1cIl9ibGFua1wiPlBlbnRpY3RvbiBGb3VuZHJ5PC9hPjwvaDQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDU+TEJDIElUIFNvbHV0aW9ucyBJbmMuPC9oNT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxicj48L2JyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgSSByZWNyZWF0ZWQgUGVudGljdG9uIEZvdW5kcnkncyBvbGQgd2Vic2l0ZSwgd2hpY2ggd2FzIG1hZGUgd2l0aCBhIGRlcHJlY2lhdGVkIHdlYnNpdGUgYnVpbGRlciwgdXNpbmcgV29yZFByZXNzLiBJIGFsc28gaW1wbGVtZW50ZWQgYWRkaXRpb25hbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZlYXR1cmVzIGFuZCBzdHlsZXMgLSBpbmNsdWRpbmcgYSBtb3JlIHJlc3BvbnNpdmUgZGVzaWduLiBcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgIHsvKiBCcmFpbiBQcm9qZWN0ICovfVxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3cgYnJhaW4gYWxpZ24taXRlbXMtY2VudGVyXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbGctNiBvcmRlci0yIG9yZGVyLWxnLTFcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJkZXNjcmlwdGlvblwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGg0PjxhIGhyZWY9XCJodHRwOi8vd3d3LmJyYWlucHJvamVjdC5jYS9cIiB0YXJnZXQ9XCJfYmxhbmtcIj5UaGUgQnJhaW4gUHJvamVjdDwvYT48L2g0PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGg1PkxCQyBJVCBTb2x1dGlvbnMgSW5jLjwvaDU+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnI+PC9icj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEkgdXBkYXRlZCB0aGUgc2l0ZSB0byBpbmNsdWRlIHRoZSAyMDE4IGFuZCAyMDE5IGFydGlzdHMgYW5kIHByb2plY3RzLiBJIGFsc28gbWFkZSBvdGhlciBzbWFsbCB1cGRhdGVzLCBsaWtlIGFkZGluZyBuZXcgYmFubmVycyBhbmQgY2hhbmdpbmdcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aGUgY29udGVudCBhbmQgbGF5b3V0IG9mIHNvbWUgZXhpc3RpbmcgcGFnZXMuIFRoaXMgc2l0ZSB3YXMgYnVpbHQgd2l0aCBXb3JkUHJlc3MgYW5kIGEgY3VzdG9tIHRoZW1lIHdoaWNoIHV0aWxpemVkIGxvb3BzIHRvIGR5bmFtaWNhbGx5IGRpc3BsYXlcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50IG9uY2UgYWRkZWQgdG8gV29yZFByZXNzLiBcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbGctNiBuby1wYWRkaW5nIG9yZGVyLTEgb3JkZXItbGctMlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8aW1nIGNsYXNzTmFtZT1cImltZy1mbHVpZFwiIHNyYz1cImFzc2V0cy9pbWFnZXMvYnJhaW4ucG5nXCI+PC9pbWc+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+IFxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgIDwvc2VjdGlvbj5cclxuICAgICAgICA8L0xheW91dD5cclxuICAgICAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgICAgIC5lbnJvdXRlIHtcclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICM3NGE0Yzc7XHJcbiAgICAgICAgICAgICAgICBjb2xvcjogI2ZmZjtcclxuICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgLnNtZyB7XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjQyNDIzO1xyXG4gICAgICAgICAgICAgICAgY29sb3I6ICNmZmY7XHJcbiAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgIC5sdWMge1xyXG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2Y2ZmJmZjtcclxuICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgLmJyYWluLCAucGYsIC5wOSwgLmRvZ2Rvam8ge1xyXG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcclxuICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgLmRlc2NyaXB0aW9uIHtcclxuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDIwcHg7XHJcbiAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgIC5uby1wYWRkaW5nIHtcclxuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDA7XHJcbiAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgIGEge1xyXG4gICAgICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgICAgICAgICAgICAgY29sb3I6IGluaGVyaXQ7XHJcbiAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgIGE6aG92ZXIge1xyXG4gICAgICAgICAgICAgICAgYm9yZGVyLWJvdHRvbTogMS41cHggc29saWQ7XHJcbiAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgIEBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDUyMHB4KSB7XHJcbiAgICAgICAgICAgICAgICBoMyB7XHJcbiAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAxLjNlbTtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAgIGg0LCBoNSB7XHJcbiAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAxZW07XHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICA8L2Rpdj5cclxuKTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IFByb2plY3RzOyJdfQ== */\n/*@ sourceURL=/mnt/c/Users/Weston/Documents/Websites/Weston/pages/projects.js */"));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Skills);
+/* harmony default export */ __webpack_exports__["default"] = (Projects);
 
 /***/ }),
 
-/***/ 2:
-/*!******************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fskills&absolutePagePath=%2Fmnt%2Fc%2FUsers%2FWeston%2FDocuments%2FWebsites%2FWeston%2Fpages%2Fskills.js ***!
-  \******************************************************************************************************************************************************/
+/***/ 3:
+/*!**********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fprojects&absolutePagePath=%2Fmnt%2Fc%2FUsers%2FWeston%2FDocuments%2FWebsites%2FWeston%2Fpages%2Fprojects.js ***!
+  \**********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fskills&absolutePagePath=%2Fmnt%2Fc%2FUsers%2FWeston%2FDocuments%2FWebsites%2FWeston%2Fpages%2Fskills.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fskills&absolutePagePath=%2Fmnt%2Fc%2FUsers%2FWeston%2FDocuments%2FWebsites%2FWeston%2Fpages%2Fskills.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fprojects&absolutePagePath=%2Fmnt%2Fc%2FUsers%2FWeston%2FDocuments%2FWebsites%2FWeston%2Fpages%2Fprojects.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fprojects&absolutePagePath=%2Fmnt%2Fc%2FUsers%2FWeston%2FDocuments%2FWebsites%2FWeston%2Fpages%2Fprojects.js!./");
 
 
 /***/ }),
@@ -12795,5 +12866,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=skills.js.map
+},[[3,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=projects.js.map
