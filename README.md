@@ -8,3 +8,7 @@
 # install next
 
 > npm install next react react-dom
+
+# install gh-pages
+
+>npm i gh-pages
