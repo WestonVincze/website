@@ -17,6 +17,27 @@ const Projects = () => (
                     </div>
                 </div>
                 <hr></hr>
+                {/* DogDojo */}
+                <div className="row dogdojo align-items-center">
+                    <div className="col-lg-6 order-2 order-lg-1">
+                        <div className="description">
+                            <h4><a href="https://dogdojo-dev-as.azurewebsites.net/" target="_blank">DogDojo</a></h4>
+                            <h5>Personal Project</h5>
+                            <br></br>
+                            <p>
+                                I designed and built a mock dog store web application using ASP.net core MVC, C#, Bootstrap, and SQL.
+                                Source code available on my GitHub, where updates are automated through a DevOps pineline configuration with Azure DevOps.
+                                I designed and animated the logo, created the layout, and developed the application as a learning project.
+                                <br/><br/>
+                                Using the MVC methodology this mock store allows the creation of users, management of user accounts, a virtual checkout system, and
+                                form and field validation. Using an SQL database and Entity Framework Core this application stores and manages user data.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 no-padding order-1 order-lg-2">
+                        <img src="assets/images/dogdojo.png" alt="DogDojo Screenshot" className="img-fluid"/>
+                    </div>
+                </div>
                 {/* Enroute */}
                 <div className="row enroute align-items-center">
                     <div className="col-lg-6 no-padding">
@@ -164,7 +185,7 @@ const Projects = () => (
                 background-color: #f6fbff;
             }
 
-            .brain, .pf, .p9 {
+            .brain, .pf, .p9, .dogdojo {
                 background-color: #fff;
             }
 
@@ -183,6 +204,10 @@ const Projects = () => (
 
             a:hover {
                 border-bottom: 1.5px solid;
+            }
+
+            .img-fluid {
+                box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
             }
 
             @media screen and (max-width: 520px) {
