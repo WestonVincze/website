@@ -1,12 +1,13 @@
 import Head from 'next/head';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
+import BottomBar from '../components/bottomBar';
 
 const Layout = (props) => (
     <div className="main">
         <Head>
             <title>Weston Vincze</title>
-            
+            <link rel="shortcut icon" href="assets/images/favicon3.png" />
             <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossOrigin="anonymous"></link>
             <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Great+Vibes|Zeyada" rel="stylesheet"></link>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossOrigin="anonymous"></link>
@@ -16,6 +17,7 @@ const Layout = (props) => (
             {props.children}
             <Footer/>
         </div>
+        <BottomBar/>
         
         <style jsx global>{`
             @font-face {
@@ -30,19 +32,19 @@ const Layout = (props) => (
                 font-family: 'typewriter', sans-serif;
             }
 
+            .row {
+                margin: 0;
+            }
+
             .folder {
-                padding-top: 275px;
+                padding-top: 200px;
                 background-color: #f3dca3;
-                border-radius: 0 0 5px 5px;
-                margin-bottom: 4px;
+                margin-left: 2px;
+                margin-right: 2px;
             }
 
             .content {
                 padding: 0 15px;
-            }
-            
-            .row {
-                margin: 0;
             }
 
             .paper { 
@@ -51,6 +53,7 @@ const Layout = (props) => (
                 padding: 20px;
                 padding-top: 30px;
                 clip-path: polygon(0 2%, 100% 0, 100% 100%, 0 98%);
+                margin-bottom: 5px;
             }
 
             .paper-even {
@@ -65,6 +68,7 @@ const Layout = (props) => (
             h2.title {
                 margin: 0 0 30px 0;
             }
+
             h2.subtitle {
                 margin: 30px 0;
             }
