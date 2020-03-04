@@ -42,11 +42,11 @@ const Skills = () => (
                                 <h2 className="text-center">technical skills.</h2>
                             </div>
                         </div>
-                        <div className="paper row">
+                        <div className="row paper">
                             <div className="col-6">
                                 <h1 className="written">languages.</h1>
                                 <p>
-                                C#, ASP.NET, Python, HTML, CSS, SCSS, PHP, JavaScript
+                                    C#, ASP.NET, Python, HTML, CSS, SCSS, PHP, JavaScript
                                 </p>
                             </div>
                             <div className="col-6">
@@ -112,17 +112,15 @@ const Skills = () => (
                     <div className="offset-lg-3 col-lg-6">
                         <div className="paper">
                             <h1 className="written">junior web developer.</h1>
-                            <p>
-                                <span className="font-weight-bold">LBC IT Solutions Inc, Toronto</span> <br></br>
-                                <span className="font-italic">July 2018 – November 2019</span> <br></br>
-                                <ul>
-                                    <li>Developed client websites (full stack) on my own and with a team using various technologies (primarily ASP.NET Core, Vue.js, React.js and WordPress)</li>
-                                    <li>Designed, developed and launched client website SierraManagementGroup.com using WordPress and custom tailored an isotope.js theme to meet client needs</li>
-                                    <li>Maintained and redesigned websites for various clients; implemented changes using a diverse number of technologies and website builders</li>
-                                    <li>Worked directly with clients to organize and manage tasks through project management services like Trello</li>
-                                    <li>Followed best practises for source control and documentation</li>
-                                </ul>
-                            </p>
+                            <span className="font-weight-bold">LBC IT Solutions Inc, Toronto</span> <br></br>
+                            <span className="font-italic">July 2018 – November 2019</span> <br></br>
+                            <ul>
+                                <li>Developed client websites (full stack) on my own and with a team using various technologies (primarily ASP.NET Core, Vue.js, React.js and WordPress)</li>
+                                <li>Designed, developed and launched client website SierraManagementGroup.com using WordPress and custom tailored an isotope.js theme to meet client needs</li>
+                                <li>Maintained and redesigned websites for various clients; implemented changes using a diverse number of technologies and website builders</li>
+                                <li>Worked directly with clients to organize and manage tasks through project management services like Trello</li>
+                                <li>Followed best practises for source control and documentation</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -130,14 +128,12 @@ const Skills = () => (
                     <div className="offset-lg-3 col-lg-6">
                         <div className="paper paper-even">
                             <h1 className="written">software engineer.</h1>
-                            <p>
-                                <span className="font-weight-bold">PWC Technologies, Scarborough</span> <br></br>
-                                <span className="font-italic">September 2015 – May 2018</span> <br></br>
-                                <ul>
-                                    <li>Completed weekly sprints and attended team meetings at Scotiabank on an agile oriented team for the Courier Bag project</li>
-                                    <li>Contributed to the design and development of the web app LLENA (a nutrition app) and developed a prototype (full stack) using HTML5, JS, JQuery, PHP, CSS and MySQL</li>
-                                </ul>
-                            </p>
+                            <span className="font-weight-bold">PWC Technologies, Scarborough</span> <br></br>
+                            <span className="font-italic">January 2017 – July 2017</span> <br></br>
+                            <ul>
+                                <li>Completed weekly sprints and attended team meetings at Scotiabank on an agile oriented team for the Courier Bag project</li>
+                                <li>Contributed to the design and development of the web app LLENA (a nutrition app) and developed a prototype (full stack) using HTML5, JS, JQuery, PHP, CSS and MySQL</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
