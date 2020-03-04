@@ -3,6 +3,11 @@ import Layout from '../components/layout';
 const Index = () => (
     <Layout>
         <section className="content">
+            <div className="row">
+                <div className="col-12 text-center">
+                    <h2 className="title">a web developer.</h2>
+                </div>
+            </div>
             <div className="row align-items-center">
                 <div className="col-sm-4">
                     <img className="photo" src="./assets/images/portrait-cutout.jpg" width="100%"></img>
@@ -13,8 +18,8 @@ const Index = () => (
                             <div className="paper">
                                 <h1 className="written text-center">hello there.</h1>
                                 <p>
-                                    I'm a Toronto based coder with a passion for front-end development and design. 
-                                    I do freelance contracts, but I'm available for full-time employment. 
+                                    I'm a Toronto based developer with a passion for web development and design. 
+                                    I do freelance contracts, but I'm also available for full-time hire. 
                                     I have 2 years of experience in the field and I'm familiar with a plethora of modern technologies.
                                 </p>
                             </div>
@@ -53,7 +58,7 @@ const Index = () => (
                     <div className="paper">
                         <h1 className="written text-center">design.</h1>
                         <p>
-                            I work with you from whatever step you're on; whether you have a precise design, a sketch or just an idea. 
+                            I will work from whatever step you're on; whether you have a precise design, a sketch, or just an idea. 
                             I am there every step of the way to make sure the design is right for you. 
                         </p>
                     </div>
@@ -65,8 +70,8 @@ const Index = () => (
                     <div className="paper paper-even">
                         <h1 className="written text-center">adapt.</h1>
                         <p>
-                            Responsiveness is a requirement and I ensure your website is stunning regardless of the device on which it is presented
-                            and consistent across all browsers and platforms.
+                            Responsiveness is a requirement and I ensure your website is stunning and consistent regardless of the 
+                            device and browser on which it is presented.
                         </p>
                     </div>
                 </div>
@@ -84,6 +89,10 @@ const Index = () => (
                     border: 5px solid white;
                     border-radius: 3px;
                     margin-bottom: 30px;
+                }
+
+                .paper {
+                    min-height: 190px;
                 }
             `}</style>
         </section>

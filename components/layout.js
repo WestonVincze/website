@@ -62,18 +62,21 @@ const Layout = (props) => (
                 font-family: 'Zeyada', cursive;
             }
 
+            h2.title {
+                margin: 0 0 30px 0;
+            }
             h2.subtitle {
                 margin: 30px 0;
             }
 
             @media screen and (max-width: 1080px) {
                 .folder {
-                    padding-top: 225px
+                    padding-top: 160px;
                 }
             }
             @media screen and (max-width: 768px) {
                 .folder {
-                    padding-top: 200px
+                    padding-top: 120px
                 }
                 h2 {
                     font-size: 1.5em;

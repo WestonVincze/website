@@ -11,17 +11,10 @@ const stickyTitle = () => (
                 <hr className="right-hr"></hr>
             </div>
         </div>
-        <div className="row">
-            <div className="col-12 text-center">
-                <h2>web developer</h2>
-            </div>
-        </div>
 
         <style jsx>{`
             .title-container {
-                height: 210px;    
-                background-image: linear-gradient(#f3dca3 95%, rgba(0,0,0,0));
-                border-radius: 5px 0px 0px 0px;
+                background-image: linear-gradient(#f3dca3 92%, rgba(0,0,0,0));
             }
 
             h1 {
@@ -47,9 +40,6 @@ const stickyTitle = () => (
             }
 
             @media screen and (max-width: 1080px) {
-                .title-container {
-                    height: 175px
-                }
                 
                 h1 {
                     font-size: 4em;
@@ -57,9 +47,6 @@ const stickyTitle = () => (
             }
 
             @media screen and (max-width: 768px) {
-                .title-container {
-                    height: 125px
-                }
 
                 h1 {
                     font-size: 3.1em;
